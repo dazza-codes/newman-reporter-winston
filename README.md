@@ -1,18 +1,23 @@
 # Newman winston reporter
-A newman reporter that logs test results using [winston](https://www.npmjs.com/package/winston). 
 
-Assertion errors are logged with log-level `error`
+A newman reporter that logs test results using
+[winston](https://www.npmjs.com/package/winston).
 
-Passed assertions are logged with log-level `info`
+- Assertion errors are logged with log-level `error`
+- Passed assertions are logged with log-level `info`
 
 ## Install
-Currently, the pagacke needs to be installed from GitHub: 
+
+Currently, the pagacke needs to be installed from GitHub:
+
 ```
-npm install --save https://github.com/Mgutjahr/newman-reporter-winston/tarball/master
+yarn add https://github.com/dazza-codes/newman-reporter-winston
 ```
 
-## Configure 
-Simply add `winston` as reporter. You can configure the winston reporter using the `reporter.winston` object. 
+## Configure
+
+Simply add `winston` as reporter. You can configure the winston
+reporter using the `reporter.winston` object. 
 
 ```js
 newman.run({
