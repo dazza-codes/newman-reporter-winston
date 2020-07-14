@@ -18,5 +18,8 @@
   "homepage": "https://github.com/dazza-codes/newman-reporter-winston",
   "dependencies": {
     "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
