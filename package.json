@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mgutjahr/newman-reporter-winston.git"
+    "url": "git+https://github.com/dazza-codes/newman-reporter-winston.git"
   },
   "author": "Manuel Gutjahr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mgutjahr/newman-reporter-winston/issues"
+    "url": "https://github.com/dazza-codes/newman-reporter-winston/issues"
   },
-  "homepage": "https://github.com/Mgutjahr/newman-reporter-winston#readme",
+  "homepage": "https://github.com/dazza-codes/newman-reporter-winston",
   "dependencies": {
-    "winston": "^2.4.0"
+    "winston": "^3.3.3"
   }
 }
